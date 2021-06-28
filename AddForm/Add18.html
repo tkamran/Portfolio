@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <input type="text" name="num1" />
+      <input type="text" name="num2" />
+      <button>Add</button>
+
+      = <span id="ans"></span>
+    </p>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("button").click(function () {
+          var num1 = $("input[name='num1']").val();
+          var num2 = $("input[name='num2']").val();
+          var n1 = Number(num1);
+          var n2 = Number(num2);
+          $("#ans").html(n1 + n2);
+        });
+      });
+    </script>
+  </body>
+</html>
