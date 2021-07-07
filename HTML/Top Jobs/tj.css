@@ -1,0 +1,85 @@
+h1
+{
+    border-style: solid;
+    border-width: 1pt;
+    
+}
+#nav{
+    border-style: solid;
+    border-width: 1pt;
+    font-size: 15pt;
+}
+
+#article{
+    float: left;
+    border-style: solid;
+    border-width: 1pt;
+    width: 50%
+}
+#botLink{
+    border-style: solid;
+    border-width: 1pt;
+    border-color: black;
+    padding: 1cm;
+
+}
+ h4{
+     font-size: 150%;
+     border-bottom: solid;
+     border-width: 1mm;
+     padding: 2mm;
+ }
+ h5{
+     font-size: 130%;
+ }
+
+ #Fjobs{
+     border-style: solid;
+     border-width: 1pt;
+ }
+
+#ad{
+    height: 20mm;
+    background-color: yellow;
+}
+
+#sidebar{
+    float: right;
+}
+#emp{
+    clear: left;
+    border-style: solid;
+    border-width: 1pt;
+    width: 200px;
+  height: 150px;
+}
+
+#footer{
+    text-align: center; 
+    border-style: solid;
+    border-width: 1pt;
+}
+
+ th{
+    border-bottom: solid
+
+}
+
+td{
+    border-bottom: solid 1pt;
+}
+
+#details{
+    text-decoration: none;
+}
+
+form{
+    border: solid 1pt ; 
+}
+
+label{
+    float: left;
+    width: 30mm;
+}
+
+
